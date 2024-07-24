@@ -48,7 +48,7 @@ In my free time, I enjoy learning new languages, algorithms, reading tech articl
 ## :fire: My Stats
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yemyoaung&show_icons=true&locale=en&theme=vision-friendly-dark)](https://github.com/yemyoaung)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yemyoaung&layout=compact&theme=vision-friendly-dark)](https://github.com/yemyoaung)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yemyoaung&hide=javascript,html,mdx,swift,ruby,c,cmake,kotlin,shell,makefile&layout=compact&theme=vision-friendly-dark)](https://github.com/yemyoaung)
 
 ---
 
