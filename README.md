@@ -12,28 +12,29 @@ In my free time, I enjoy learning new languages, algorithms, reading tech articl
 
 ## :briefcase: Professional Experience
 
-### Beyond Limit Technology (Currently)
+### K-Link Myanmar (Contract - Present)
+**Senior Golang Developer Responsibilities:**
+- Responsible for specific tasks assigned in the development of backend services and applications using Golang.
+- Collaborate with the team to design and implement efficient code solutions.
+- Participate in code reviews and contribute to the continuous improvement of the development process.
 
-- **CTO Responsibilities**:
-  - Successfully launched **WelpayML**, an online shop and logistics management system.
-  - Developed **Online Zay**, a SAS online shop app, focusing on user experience and functionality.
-  - Managed a team of engineers, providing mentorship and guidance for technical and strategic decisions.
-  - Implemented DevOps practices, including CI/CD pipelines, to automate and streamline development processes.
+### Beyond Limit Technology (1 year and 3 months)
+**CTO Responsibilities:**
+- Led the technical strategy and development of projects such as **WelpayML** and **Online Zay**, focusing on e-commerce and logistics solutions.
+- Oversaw the successful launch of multiple applications, ensuring alignment with market needs and technical feasibility.
+- Implemented DevOps practices, including CI/CD pipelines, to streamline development processes.
 
 ### YEC Company (3 years)
-
-- **Tech Lead Responsibilities**:
-  - Led a team to deliver projects like **Toe Tet**, **Dreamlab**, **Akyanpay**, **Aura Online Shop**, **Mindmax**, and **Thukha**.
-  - Introduced and implemented microservices architecture, resulting in improved scalability and performance of applications.
-  - Collaborated with cross-functional teams to define project requirements, prioritize tasks, and ensure timely delivery of high-quality software solutions.
+**Tech Lead Responsibilities:**
+- Rewrote key applications, including **Toe Tet** and **Dreamlab**, resulting in a **20% increase in performance**.
+- Developed new applications such as **Akyanpay** (featuring video calling, an EPUB reader, and dynamic content) and **Aura Online Shop**.
+- Introduced modern software architectures, including **Graph Gateway** and **gRPC microservices**, to streamline development processes.
 
 ### Thar Thar Myanmar (1.5 years)
-
-- **PHP Developer Responsibilities**:
-  - Developed a robust sales management system for way sellers, incorporating location tracking functionality.
-  - Designed and implemented an inventory management system to streamline operations.
-  - Created a human resource management system for efficient check-in and check-out processes.
-  - Implemented a reward system for shops and employees, enhancing motivation and productivity.
+**PHP Developer Responsibilities:**
+- Designed and implemented a suite of management systems, including sales, inventory, and human resource solutions, significantly improving operational efficiency.
+- Developed a sales management system with location tracking for way sellers, enhancing logistics operations.
+- Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.
 
 ---
 
@@ -42,6 +43,12 @@ In my free time, I enjoy learning new languages, algorithms, reading tech articl
 - **Programming Languages**: Dart, Golang, JavaScript, PHP, Python, Java, Objective-C
 - **Technologies**: Docker, microservices, gRPC, socket programming
 - **Tools**: IDEs, version control, CI/CD pipelines
+
+---
+
+## :scroll: CV Website
+
+You can view and download my CV from the following link: [Generate My CV Website](https://yemyoaung.github.io/cv/)  
 
 ---
 
