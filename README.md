@@ -12,28 +12,29 @@ In my free time, I enjoy learning new languages, algorithms, reading tech articl
 
 ## :briefcase: Professional Experience
 
-### K-Link Myanmar (Contract - Present)
-**Senior Golang Developer Responsibilities:**
-- Responsible for specific tasks assigned in the development of backend services and applications using Golang.
-- Collaborate with the team to design and implement efficient code solutions.
-- Participate in code reviews and contribute to the continuous improvement of the development process.
+### K-Link Myanmar (May 2024 - Present)
+**Senior Golang Developer**
+- Developed backend services and applications using Golang.
+- Collaborated with the team to design and implement efficient code solutions.
+- Conducted code reviews to ensure adherence to best practices and quality standards.
+- Improved memory usage for the authorizer service by almost 100%, reducing it to 6MB through a complete rewrite in Golang.
+- Implemented thread-safe database switching in Node.js (TypeScript), enhancing the efficiency and reliability of a multi-tenant application.
 
-### Beyond Limit Technology (1 year and 3 months)
-**CTO Responsibilities:**
-- Led the technical strategy and development of projects such as **WelpayML** and **Online Zay**, focusing on e-commerce and logistics solutions.
-- Oversaw the successful launch of multiple applications, ensuring alignment with market needs and technical feasibility.
-- Implemented DevOps practices, including CI/CD pipelines, to streamline development processes.
+### Beyond Limit Technology (Sep 2022 - Mar 2024)
+**Chief Technology Officer**
+- Directed the technical strategy and development of key projects, including WelpayML and Online Zay, focusing on e-commerce and logistics solutions.
+- Led the successful launch of multiple applications, ensuring alignment with market needs and technical feasibility.
+- Oversaw cross-functional teams to ensure timely delivery of scalable and high-performance software solutions.
 
-### YEC Company (3 years)
-**Tech Lead Responsibilities:**
-- Rewrote key applications, including **Toe Tet** and **Dreamlab**, resulting in a **20% increase in performance**.
-- Developed new applications such as **Akyanpay** (featuring video calling, an EPUB reader, and dynamic content) and **Aura Online Shop**.
-- Introduced modern software architectures, including **Graph Gateway** and **gRPC microservices**, to streamline development processes.
+### YEC Company (Jan 2020 - Oct 2023)
+**Tech Lead**
+- Rewrote key applications, including Toe Tet and Dreamlab, resulting in a 20% performance improvement.
+- Developed new applications such as Akyanpay and Aura Online Shop, utilizing modern software architectures, including Graph Gateway and gRPC microservices.
+- Managed and mentored a team of developers, fostering a culture of innovation and continuous improvement.
 
-### Thar Thar Myanmar (1.5 years)
-**PHP Developer Responsibilities:**
-- Designed and implemented a suite of management systems, including sales, inventory, and human resource solutions, significantly improving operational efficiency.
-- Developed a sales management system with location tracking for way sellers, enhancing logistics operations.
+### Thar Thar Myanmar (Sep 2018 - Dec 2019)
+**PHP Developer**
+- Designed and implemented management systems, including sales, inventory, and human resource solutions, significantly improving operational efficiency.
 - Collaborated with cross-functional teams to gather requirements and deliver high-quality software solutions.
 
 ---
@@ -48,7 +49,7 @@ In my free time, I enjoy learning new languages, algorithms, reading tech articl
 
 ## :scroll: CV Website
 
-You can view and download my CV from the following link: [Generate My CV Website](https://yemyoaung.github.io/cv/)  
+You can view and download my CV from the following link: [Generate My CV Website](https://yemyoaung.github.io/cv/)
 
 ---
 
