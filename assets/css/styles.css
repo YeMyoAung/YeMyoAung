@@ -80,13 +80,14 @@ nav.mobile-nav {
 }
 
 .fab-icon {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   position: relative;
   transition: all 0.3s ease;
   pointer-events: none;
 }
 
+/* Create the three lines of the hamburger menu */
 .fab-icon::before,
 .fab-icon::after {
   content: '';
@@ -94,14 +95,37 @@ nav.mobile-nav {
   width: 18px;
   height: 2px;
   background: white;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
   transition: all 0.3s ease;
 }
 
+.fab-icon::before {
+  top: -6px;
+}
+
 .fab-icon::after {
-  transform: translate(-50%, -50%) rotate(90deg);
+  bottom: -6px;
+}
+
+/* Middle line of hamburger menu */
+.fab-icon {
+  background: white;
+  height: 2px;
+}
+
+/* Animation when menu is active */
+.fab-button.active .fab-icon {
+  background: transparent;
+}
+
+.fab-button.active .fab-icon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.fab-button.active .fab-icon::after {
+  bottom: 0;
+  transform: rotate(-45deg);
 }
 
 /* Animations */
