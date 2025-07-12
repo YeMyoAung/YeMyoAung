@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect Portfolio</title>
+    <meta name="title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect Portfolio" />
+    <meta name="description" content="Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Specializing in Golang, event-driven architecture, and AI-powered solutions." />
+    <meta name="keywords" content="Senior Developer, Backend Developer, Mobile Developer, Software Architect, Golang, Flutter, Microservices, Event-driven Architecture, AI Solutions, Singapore Developer, Myanmar Developer" />
+    <meta name="author" content="Ye Myo Aung" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yemyoaung.dev/" />
+    <meta property="og:title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect" />
+    <meta property="og:description" content="Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Currently working at Klink.Cloud Singapore." />
+    <meta property="og:image" content="https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Ye Myo Aung Portfolio" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yemyoaung.dev/" />
+    <meta property="twitter:title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect" />
+    <meta property="twitter:description" content="Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Currently working at Klink.Cloud Singapore." />
+    <meta property="twitter:image" content="https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912" />
+    <meta name="twitter:creator" content="@yemyoaung" />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="theme-color" content="#0a9396" />
+    <meta name="msapplication-TileColor" content="#0a9396" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yemyoaung.dev/" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/yemyoaung/favicon/main/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ye Myo Aung",
+      "jobTitle": "Senior Backend & Mobile Developer",
+      "description": "Experienced Senior Developer with over 6 years in backend microservices, Flutter mobile development, and software architecture.",
+      "url": "https://yemyoaung.dev",
+      "image": "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912",
+      "email": "yemyoaung.dev@gmail.com",
+      "telephone": "+65-XXXX-XXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Singapore",
+        "addressCountry": "SG"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/ye-myo-aung-a4a798237/",
+        "https://github.com/yemyoaung",
+        "https://klink.cloud"
+      ],
+      "knowsAbout": [
+        "Golang",
+        "Flutter",
+        "Dart",
+        "Microservices",
+        "Event-driven Architecture",
+        "Mobile Development",
+        "Backend Development",
+        "Software Architecture",
+        "AI Solutions",
+        "Performance Optimization",
+        "Socket.IO",
+        "WebSocket",
+        "Real-time Communication",
+        "GORM",
+        "Multi-tenancy"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Klink.Cloud",
+        "url": "https://klink.cloud"
+      },
+      "alumniOf": [
+        {
+          "@type": "Organization",
+          "name": "Beyond Limits Technology"
+        },
+        {
+          "@type": "Organization", 
+          "name": "YEC Company"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Website Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Ye Myo Aung Portfolio",
+      "url": "https://yemyoaung.dev",
+      "description": "Professional portfolio of Ye Myo Aung, Senior Backend & Mobile Developer and Software Architect",
+      "author": {
+        "@type": "Person",
+        "name": "Ye Myo Aung"
+      },
+      "inLanguage": "en-US"
+    }
+    </script>
+    
+    <!-- Professional Service Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Ye Myo Aung - Software Development Services",
+      "description": "Senior Backend & Mobile Developer offering software architecture, microservices development, and Flutter mobile application development services",
+      "provider": {
+        "@type": "Person",
+        "name": "Ye Myo Aung"
+      },
+      "areaServed": [
+        "Singapore",
+        "Myanmar",
+        "Asia-Pacific"
+      ],
+      "serviceType": [
+        "Software Development",
+        "Mobile App Development",
+        "Backend Development",
+        "Software Architecture",
+        "Technical Consulting"
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <nav class="sidebar" role="navigation" aria-label="Primary Navigation">
+      <ul>
+        <li><a href="#about" class="active" aria-current="page">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#opensource">Open Source</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <footer>&copy; 2025 Ye Myo Aung. All rights reserved.</footer>
+    </nav>
+
+    <main class="content" role="main" tabindex="-1">
+      <header class="profile-header" itemscope itemtype="https://schema.org/Person">
+        <img
+          src="https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912"
+          alt="Photo of Ye Myo Aung, Senior Backend & Mobile Developer"
+          loading="lazy"
+          itemprop="image"
+        />
+        <h1 itemprop="name">Ye Myo Aung</h1>
+        <p itemprop="jobTitle">Senior Backend & Mobile Developer | Software Architect</p>
+        <a
+          href="./assets/downloads/YE MYO AUNG SENIOR DEVELOPER.pdf"
+          download
+          class="btn-download"
+          aria-label="Download Resume PDF"
+          >Download Resume</a>
+      </header>
+
+      <section id="about" aria-label="About me">
+        <h2>About Me</h2>
+        <p>
+          Experienced Senior Developer with over 6 years in backend
+          microservices, Flutter mobile development, and software architecture.
+          Passionate about scalable, high-performance systems and delivering
+          robust technical solutions that drive business growth.
+        </p>
+        <p>
+          I specialize in building enterprise-grade applications that handle millions of users, 
+          with expertise in event-driven architecture, performance optimization, and cross-platform development. 
+          My experience spans from early-stage startups to established companies across Singapore and Myanmar, 
+          where I've led technical teams and delivered mission-critical systems.
+        </p>
+        <p>
+          Currently focused on AI-powered solutions, microservices architecture, and technical mentorship. 
+          I believe in writing code that not only solves problems but is also 
+          maintainable, testable, and scalable for future growth.
+        </p>
+      </section>
+
+      <section id="skills" aria-label="Technical skills">
+        <h2>Technical Skills</h2>
+        <ul class="skills-list">
+          <li>
+            Languages: Golang, Dart, JavaScript, TypeScript, PHP, Python, Java,
+            Objective-C
+          </li>
+          <li>Backend: Microservices, gRPC, REST APIs, Redis, Kafka</li>
+          <li>
+            Frontend/Mobile: Flutter (iOS, Android, Web), Hybrid Flutter +
+            Native Integration
+          </li>
+          <li>Tools & Platforms: Docker, CI/CD pipelines, GitHub Actions</li>
+          <li>
+            Cloud & DevOps: Containerized deployments, scalable system design
+          </li>
+          <li>
+            Other: AI-powered systems, OCR, NLP, Event-driven architecture
+          </li>
+        </ul>
+      </section>
+
+      <section id="projects" aria-label="Featured projects">
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h4>Klink.Cloud Contact Center Platform</h4>
+            <p>
+              Developed a comprehensive contact center platform featuring phone call systems, messaging, 
+              workflow automation, and AI agents. Built highly scalable backend services in Golang with 
+              event-driven architecture principles and reduced memory consumption by 99.9% through performance optimization.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Golang</span>
+              <span class="tech-tag">Node.js(TypeScript)</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">AI Agents</span>
+              <span class="tech-tag">Workflow Automation</span>
+              <span class="tech-tag">Developer Webhook System</span>
+              <span class="tech-tag">Contact Center</span>
+              <span class="tech-tag">Real-time Communication</span>
+              <span class="tech-tag">Event Driven Architecture</span>
+            </div>
+            <div class="project-links">
+              <a href="https://klink.cloud" target="_blank">Visit Klink.Cloud</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>MFM Labs MyFarmer Platform</h4>
+            <p>
+              Developed MyFarmer mobile applications for Android/iOS and web dashboard using Flutter. 
+              Built comprehensive agricultural platform with Python and Node.js backend services 
+              implementing event-driven architecture for real-time farming data management and analytics.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Event Driven Architecture</span>
+              <span class="tech-tag">Android/iOS</span>
+              <span class="tech-tag">Data Visualization</span>
+              <span class="tech-tag">Real-time Communication</span>
+              <span class="tech-tag">Agricultural Platform</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.mfmlabs.com/" target="_blank">Visit MFM Labs</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Beyond Limits Technology Solutions</h4>
+            <p>
+              Led architecture and development of scalable Flutter applications across mobile and web platforms 
+              for a software development company. Implemented enterprise client applications with GraphQL and gRPC, 
+              introduced CI/CD pipelines and Agile workflows while mentoring developers on software engineering best practices.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Golang</span>
+              <span class="tech-tag">Node.js(TypeScript)</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">GraphQL</span>
+              <span class="tech-tag">gRPC</span>
+              <span class="tech-tag">CI/CD</span>
+              <span class="tech-tag">Agile</span>
+            </div>
+            <div class="project-links">
+              <a href="https://www.beyondlimitsmm.com/" target="_blank">Visit Beyond Limits</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>YEC Company Software Solutions</h4>
+            <p>
+              Optimized Flutter UI for high-performance applications with complex dynamic layouts at a software 
+              development company. Integrated live streaming features, managed hybrid Flutter-native integrations, 
+              and led code quality processes and team training sessions for development teams.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Node.js(TypeScript)</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Live Streaming</span>
+              <span class="tech-tag">Native Integration</span>
+              <span class="tech-tag">Performance Optimization</span>
+              <span class="tech-tag">Team Leadership</span>
+            </div>
+            <div class="project-links">
+              <a href="https://yec.company/" target="_blank">Visit YEC</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Thazin Cherry School Management System</h4>
+            <p>
+              Developed comprehensive school management system using Flutter mobile application and Node.js backend services. 
+              Implemented event-driven architecture for real-time student information management, attendance tracking, 
+              grade management, and parent-teacher communication platform for educational institutions.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Event Driven Architecture</span>
+              <span class="tech-tag">Educational Platform</span>
+              <span class="tech-tag">Student Management</span>
+              <span class="tech-tag">Real-time Communication</span>
+              <span class="tech-tag">Mobile Application</span>
+            </div>
+            <div class="project-links">
+              <a href="https://thazincherry.org/" target="_blank">Visit Thazin Cherry</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Thar Thar Myanmar Internal Management System</h4>
+            <p>
+              Developed comprehensive internal management system for an enterprise rice porridge company. 
+              Built custom modules for sales management, inventory tracking, and HR operations to streamline 
+              business processes. Implemented role-based access control and real-time reporting dashboards 
+              for internal company operations.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Internal Systems</span>
+              <span class="tech-tag">Sales Management</span>
+              <span class="tech-tag">Inventory System</span>
+              <span class="tech-tag">HR Management</span>
+              <span class="tech-tag">Real-time Communication</span>
+              <span class="tech-tag">Role-based Access</span>
+            </div>
+            <div class="project-links">
+              <a href="https://thartharmyanmar.com" target="_blank">Visit Thar Thar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="opensource" aria-label="Open source contributions">
+        <h2>Open Source Contributions</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <h4>Starlight EPUB Viewer</h4>
+            <p>
+              Developed the first and only Flutter package for perfect EPUB viewing on both Android and iOS platforms. 
+              This comprehensive solution enables seamless e-book reading experiences with native performance 
+              and cross-platform compatibility, addressing a critical gap in Flutter's ecosystem.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Dart</span>
+              <span class="tech-tag">Android/iOS</span>
+              <span class="tech-tag">EPUB Reader</span>
+              <span class="tech-tag">Native Performance</span>
+              <span class="tech-tag">Cross-platform</span>
+              <span class="tech-tag">Open Source</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/YeMyoAung/starlight_epub_viewer" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Flutter Google reCAPTCHA v3</h4>
+            <p>
+              Created Flutter package for seamless Google reCAPTCHA v3 integration, enabling developers to implement 
+              advanced bot protection and spam prevention in Flutter applications. Provides simple API for 
+              secure user verification across mobile and web platforms.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Dart</span>
+              <span class="tech-tag">Google reCAPTCHA</span>
+              <span class="tech-tag">Security</span>
+              <span class="tech-tag">Bot Protection</span>
+              <span class="tech-tag">Web Integration</span>
+              <span class="tech-tag">Open Source</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/YeMyoAung/flutter_google_recaptcha_v3" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Go Environment Loader (goenv)</h4>
+            <p>
+              Created the first and only Go package that loads environment variables from .env files or current environment 
+              directly into structs with built-in validation support. Simplifies configuration management in Go applications 
+              by providing type-safe environment variable handling with automatic validation and error reporting.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Golang</span>
+              <span class="tech-tag">Environment Variables</span>
+              <span class="tech-tag">Struct Mapping</span>
+              <span class="tech-tag">Validation</span>
+              <span class="tech-tag">Configuration Management</span>
+              <span class="tech-tag">Type Safety</span>
+              <span class="tech-tag">Open Source</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/YeMyoAung/goenv" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>GORM Multi-Tenancy Library</h4>
+            <p>
+              Developed comprehensive Go library for managing multi-tenant database connections using GORM with 
+              enterprise-ready features. Includes concurrency safety, context-aware error handling, environment-based 
+              configuration, and observability hooks with OpenTelemetry integration for production-grade multi-tenant applications.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Golang</span>
+              <span class="tech-tag">GORM</span>
+              <span class="tech-tag">Multi-tenant</span>
+              <span class="tech-tag">Database Management</span>
+              <span class="tech-tag">Concurrency Safety</span>
+              <span class="tech-tag">OpenTelemetry</span>
+              <span class="tech-tag">Enterprise Grade</span>
+              <span class="tech-tag">Open Source</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/YeMyoAung/gorm-multitenancy" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Starlight Dart Socket.IO Server</h4>
+            <p>
+              Created high-performance Socket.IO server implementation in pure Dart, enabling real-time bidirectional 
+              communication for Flutter and Dart applications. Provides enterprise-grade WebSocket server capabilities 
+              with Socket.IO protocol compatibility, supporting namespaces, rooms, and event-driven architecture 
+              for scalable real-time applications.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Dart</span>
+              <span class="tech-tag">Socket.IO</span>
+              <span class="tech-tag">WebSocket</span>
+              <span class="tech-tag">Real-time Communication</span>
+              <span class="tech-tag">Event-driven</span>
+              <span class="tech-tag">Server-side</span>
+              <span class="tech-tag">High Performance</span>
+              <span class="tech-tag">Open Source</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/YeMyoAung/starlight_dart_socket_io" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <h4>Starlight Dart Socket.IO Client</h4>
+            <p>
+              Developed robust Socket.IO client library for Dart and Flutter applications, providing seamless 
+              real-time communication capabilities. Features automatic reconnection, event handling, namespace support, 
+              and cross-platform compatibility for mobile, web, and desktop applications with comprehensive 
+              error handling and connection management.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Dart</span>
+              <span class="tech-tag">Flutter</span>
+              <span class="tech-tag">Socket.IO Client</span>
+              <span class="tech-tag">Real-time Communication</span>
+              <span class="tech-tag">Cross-platform</span>
+              <span class="tech-tag">Auto-reconnection</span>
+              <span class="tech-tag">Event Handling</span>
+              <span class="tech-tag">Open Source</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/YeMyoAung/starlight_dart_socket_io_client" target="_blank">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" aria-label="Work experience">
+        <h2>Work Experience</h2>
+        <h3>
+          <a
+            href="https://klink.cloud"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Klink.Cloud Singapore (May 2024 - Present)</a
+          >
+        </h3>
+        <ul class="experience-list">
+          <li>
+            Developed highly scalable backend services in Golang with event-driven
+            architecture principles.
+          </li>
+          <li>
+            Reduced memory consumption by 99.9% in critical services through
+            performance profiling.
+          </li>
+          <li>
+            Designed AI-powered document processing and internal chatbots using
+            OpenAI models.
+          </li>
+          <li>
+            Built fault-tolerant queue systems and secure API gateways
+            supporting token-based auth.
+          </li>
+        </ul>
+        <h3>
+          <a
+            href="https://www.beyondlimitsmm.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Beyond Limits Technology (Sep 2022 - Apr 2024)</a
+          >
+        </h3>
+        <ul class="experience-list">
+          <li>
+            Led architecture and development of Flutter apps across mobile and
+            web platforms.
+          </li>
+          <li>
+            Implemented scalable fintech and e-commerce applications with GraphQL
+            and gRPC.
+          </li>
+          <li>
+            Introduced CI/CD pipelines and Agile workflows, mentoring developers
+            on software engineering best practices.
+          </li>
+        </ul>
+        <h3>
+          <a
+            href="https://yec.company/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YEC Company (Jan 2020 - Oct 2023)</a
+          >
+        </h3>
+        <ul class="experience-list">
+          <li>
+            Optimized Flutter UI for performance and complex dynamic layouts.
+          </li>
+          <li>
+            Integrated live streaming features and managed hybrid Flutter-native
+            apps.
+          </li>
+          <li>Led code quality processes and team training sessions.</li>
+        </ul>
+        <h3>
+          <a
+            href="https://thartharmyanmar.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Thar Thar Myanmar (Sep 2018 - Dec 2019)</a
+          >
+        </h3>
+        <ul class="experience-list">
+          <li>
+            Built enterprise management applications including sales, inventory, and
+            HR modules.
+          </li>
+          <li>
+            Implemented role-based access control and real-time reporting
+            dashboards.
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" aria-label="Contact information" itemscope itemtype="https://schema.org/ContactPoint">
+        <h2>Contact</h2>
+        <p>
+          Email:
+          <a href="mailto:yemyoaung.dev@gmail.com" itemprop="email">yemyoaung.dev@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/ye-myo-aung-a4a798237/"
+            target="_blank"
+            rel="noopener noreferrer"
+            itemprop="url"
+            >linkedin.com/in/ye-myo-aung-a4a798237</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a
+            href="https://github.com/yemyoaung"
+            target="_blank"
+            rel="noopener noreferrer"
+            itemprop="url"
+            >github.com/yemyoaung</a
+          >
+        </p>
+        <p class="contact-availability">
+          Available for senior engineering roles and technical consulting opportunities.
+        </p>
+    </main>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

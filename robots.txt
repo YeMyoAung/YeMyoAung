@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yemyoaung.dev/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Allow access to CSS and JS files
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Allow access to downloads
+Allow: /assets/downloads/
+
+# Block access to sensitive files (if any)
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /node_modules/

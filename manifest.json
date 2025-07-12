@@ -1,0 +1,32 @@
+{
+  "name": "Ye Myo Aung - Portfolio",
+  "short_name": "YMA Portfolio",
+  "description": "Professional portfolio of Ye Myo Aung, Senior Backend & Mobile Developer and Software Architect",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f0fdfa",
+  "theme_color": "#0a9396",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "developer", "professional"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/yemyoaung/favicon/main/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/yemyoaung/favicon/main/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/yemyoaung/favicon/main/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
