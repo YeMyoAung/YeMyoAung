@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
     
     <!-- Primary Meta Tags -->
     <title>Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect Portfolio</title>
-    <meta name="title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect Portfolio" />
+    <meta name="title" content="Ye Myo Aung" />
     <meta name="description" content="Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Specializing in Golang, event-driven architecture, and AI-powered solutions." />
     <meta name="keywords" content="Senior Developer, Backend Developer, Mobile Developer, Software Architect, Golang, Flutter, Microservices, Event-driven Architecture, AI Solutions, Singapore Developer, Myanmar Developer" />
     <meta name="author" content="Ye Myo Aung" />
@@ -16,9 +16,9 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://yemyoaung.dev/" />
-    <meta property="og:title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect" />
+    <meta property="og:title" content="Ye Myo Aung" />
     <meta property="og:description" content="Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Currently working at Klink.Cloud Singapore." />
-    <meta property="og:image" content="https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912" />
+    <meta property="og:image" content="assets/images/profile.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_US" />
@@ -27,9 +27,9 @@
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://yemyoaung.dev/" />
-    <meta property="twitter:title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect" />
+    <meta property="twitter:title" content="Ye Myo Aung" />
     <meta property="twitter:description" content="Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Currently working at Klink.Cloud Singapore." />
-    <meta property="twitter:image" content="https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912" />
+    <meta property="twitter:image" content="assets/images/profile.jpg" />
     <meta name="twitter:creator" content="@yemyoaung" />
     
     <!-- Additional SEO Meta Tags -->
@@ -41,12 +41,15 @@
     <link rel="canonical" href="https://yemyoaung.dev/" />
     
     <!-- PWA Manifest -->
-    <link rel="manifest" href="/manifest.json" />
-    <link
-      rel="icon"
-      href="https://raw.githubusercontent.com/yemyoaung/favicon/main/favicon.ico"
-      type="image/x-icon"
-    />
+    <link rel="manifest" href="manifest.json" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/icons/android-chrome-512x512.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@600&display=swap"
       rel="stylesheet"
@@ -62,18 +65,22 @@
       "jobTitle": "Senior Backend & Mobile Developer",
       "description": "Experienced Senior Developer with over 6 years in backend microservices, Flutter mobile development, and software architecture.",
       "url": "https://yemyoaung.dev",
-      "image": "https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912",
+      "image": "assets/images/profile.jpg",
       "email": "yemyoaung.dev@gmail.com",
-      "telephone": "+65-XXXX-XXXX",
+      "telephone": "+66949123806,+959959165151",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Singapore",
-        "addressCountry": "SG"
+        "addressLocality": "Thailand",
+        "addressCountry": "Th"
       },
       "sameAs": [
         "https://www.linkedin.com/in/ye-myo-aung-a4a798237/",
         "https://github.com/yemyoaung",
-        "https://klink.cloud"
+        "https://klink.cloud",
+        "https://yec.company",
+        "https://www.beyondlimitsmm.com",
+        "https://thazincherry.org/",
+        "https://www.mfmlabs.com/"
       ],
       "knowsAbout": [
         "Golang",
@@ -89,7 +96,10 @@
         "Socket.IO",
         "WebSocket",
         "Real-time Communication",
-        "GORM",
+        "Postgres",
+        "Redis",
+        "Kafka",
+        "Rabbitmq",
         "Multi-tenancy"
       ],
       "worksFor": {
@@ -105,6 +115,10 @@
         {
           "@type": "Organization", 
           "name": "YEC Company"
+        },
+        {
+          "@type": "Organization",
+          "name": "Thar Thar Myanmar"
         }
       ]
     }
@@ -139,6 +153,7 @@
       },
       "areaServed": [
         "Singapore",
+        "Thailand",
         "Myanmar",
         "Asia-Pacific"
       ],
@@ -153,6 +168,78 @@
     </script>
   </head>
   <body>
+    <!-- Floating Menu for Mobile -->
+    <div class="floating-menu" id="floatingMenu">
+      <div class="floating-menu-backdrop"></div>
+      <div class="floating-menu-items">
+        <div class="menu-item">
+          <span class="menu-label">About Me</span>
+          <button class="menu-item-button" data-target="#about">
+            <svg class="menu-item-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+          </button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-label">Skills</span>
+          <button class="menu-item-button" data-target="#skills">
+            <svg class="menu-item-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a6.759 6.759 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.57 6.57 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+            </svg>
+          </button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-label">Projects</span>
+          <button class="menu-item-button" data-target="#projects">
+            <svg class="menu-item-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            </svg>
+          </button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-label">Open Source</span>
+          <button class="menu-item-button" data-target="#opensource">
+            <svg class="menu-item-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
+            </svg>
+          </button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-label">Experience</span>
+          <button class="menu-item-button" data-target="#experience">
+            <svg class="menu-item-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z" />
+            </svg>
+          </button>
+        </div>
+        <div class="menu-item">
+          <span class="menu-label">Contact</span>
+          <button class="menu-item-button" data-target="#contact">
+            <svg class="menu-item-icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.32 0L1.32 8.909a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <button class="fab-button" id="fabButton">
+        <div class="fab-icon"></div>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation (visible only on mobile) -->
+    <nav class="mobile-nav" role="navigation" aria-label="Mobile Navigation">
+      <ul>
+        <li><a href="#about" class="active" aria-current="page">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#opensource">Open Source</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Desktop Sidebar (visible only on desktop) -->
     <nav class="sidebar" role="navigation" aria-label="Primary Navigation">
       <ul>
         <li><a href="#about" class="active" aria-current="page">About</a></li>
@@ -168,7 +255,7 @@
     <main class="content" role="main" tabindex="-1">
       <header class="profile-header" itemscope itemtype="https://schema.org/Person">
         <img
-          src="https://scontent.fbkk28-1.fna.fbcdn.net/v/t39.30808-6/370533612_3315620895395202_7469661018510782554_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-73sDpbwGt8Q7kNvwF4Vi8c&_nc_oc=Adn_Qeb0VOqLHI6YhR8Rc21-4sf9a_vo9JaUz3_uFEBt6p0MRozErLRTU7gzNA92TLbRcnPBK1BKKEGmuYkWs6Zk&_nc_zt=23&_nc_ht=scontent.fbkk28-1.fna&_nc_gid=rWWIQNdkO51U8h7Y6q9VJQ&oh=00_AfRmOROkcYkvca2sDur1OY8ouSZjo64r5Z9eiYWoPB0CKA&oe=68779912"
+          src="./assets/images/profile.jpg"
           alt="Photo of Ye Myo Aung, Senior Backend & Mobile Developer"
           loading="lazy"
           itemprop="image"
@@ -593,6 +680,14 @@
         <p>
           Email:
           <a href="mailto:yemyoaung.dev@gmail.com" itemprop="email">yemyoaung.dev@gmail.com</a>
+        </p>
+        <p>
+            Phone (Thailand):
+            <a href="tel:+66949123806" itemprop="telephone">+66 94 912 3806</a>
+        </p>
+        <p>
+            Phone (Myanmar):
+            <a href="tel:+959959165151" itemprop="telephone">+95 995 916 5151</a>
         </p>
         <p>
           LinkedIn:

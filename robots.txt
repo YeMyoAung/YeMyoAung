@@ -10,6 +10,7 @@ Crawl-delay: 1
 # Allow access to CSS and JS files
 Allow: /assets/css/
 Allow: /assets/js/
+Allow: /assets/icons/
 
 # Allow access to downloads
 Allow: /assets/downloads/
