@@ -1,4 +1,17 @@
 {
+    "redirects": [
+        {
+            "source": "/(.*)",
+            "has": [
+                {
+                    "type": "host",
+                    "value": "yemyoaung.dev"
+                }
+            ],
+            "destination": "https://www.yemyoaung.dev/:match*",
+            "permanent": true
+        }
+    ],
     "rewrites": [
         {
             "source": "/(.*)",
@@ -59,7 +72,7 @@
             ]
         },
         {
-            "source":"/favicon.ico",
+            "source": "/favicon.ico",
             "headers": [
                 {
                     "key": "Content-Type",
