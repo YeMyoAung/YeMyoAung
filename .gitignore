@@ -94,3 +94,7 @@ public
 # Temporary folders
 tmp/
 temp/
+
+*.md
+!README.md
+*.sh

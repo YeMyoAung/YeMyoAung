@@ -1,0 +1,20 @@
+# ads.txt file for yemyoaung.dev
+# This file indicates that this domain is authorized to sell advertising inventory
+# 
+# Note: This is a developer portfolio website
+# Currently no advertising partnerships or monetization
+# This file is maintained for compliance and future potential use
+#
+# Format: <Field #1>, <Field #2>, <Field #3>, <Field #4>
+# Field #1: Domain name of the advertising system
+# Field #2: Publisher's Account ID
+# Field #3: Type of Account/Relationship
+# Field #4: Certification Authority ID (Optional)
+
+# Example entries (commented out - no current advertising partnerships):
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# facebook.com, 0000000000000000, DIRECT, c3e20eee3f780d68
+
+# Contact: yemyoaung.dev@gmail.com
+# Domain owner: Ye Myo Aung
+# Portfolio website - Educational and professional use
