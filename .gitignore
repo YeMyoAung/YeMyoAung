@@ -98,3 +98,4 @@ temp/
 *.md
 !README.md
 *.sh
+*_*.html
