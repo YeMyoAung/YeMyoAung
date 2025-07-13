@@ -3,8 +3,8 @@
   --secondary-color: #94d2bd;
   --dark-color: #005f73;
   --light-bg: #f0fdfa;
-  --font-primary: "Inter", sans-serif;
-  --font-accent: "Poppins", sans-serif;
+  --font-primary: "Inter", system-ui, -apple-system, sans-serif;
+  --font-accent: "Poppins", system-ui, -apple-system, sans-serif;
   --sidebar-width: 260px;
 }
 

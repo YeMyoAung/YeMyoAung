@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
     
     <!-- Primary Meta Tags -->
-    <title>Ye Myo Aung - Senior Developer & Software Architect</title>
-    <meta name="title" content="Ye Myo Aung - Senior Developer & Software Architect" />
-    <meta name="description" content="Ye Myo Aung - Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Expert in Golang, AI solutions, and scalable systems." />
-    <meta name="keywords" content="Ye Myo Aung, Ye Myo Aung Developer, Ye Myo Aung Portfolio, Senior Backend Developer, Flutter Developer, Golang Developer, Software Architect, Microservices Expert, Event-driven Architecture, AI Solutions, Singapore Developer, Myanmar Developer, Klink Cloud, Beyond Limits Technology, YEC Company, Software Engineer, Full Stack Developer, Mobile App Developer, Senior Software Engineer, Tech Lead, Backend Engineer, Flutter Expert, Dart Developer, API Developer, Microservices Architect, Cloud Developer, DevOps Engineer, System Architect, Technical Lead" />
+    <title>Senior Golang Engineer & Remote Go Developer | Backend Architect & API Expert</title>
+    <meta name="title" content="Senior Golang Engineer & Remote Go Developer | Backend Architect & API Expert" />
+    <meta name="description" content="Senior Golang Engineer & Remote Go Developer with 6+ years building scalable Go microservices, REST APIs, and distributed systems. Expert Golang Architect in Go performance optimization, gRPC, and backend systems." />
+    <meta name="keywords" content="Senior Golang Developer, Go Backend Developer, Golang Engineer, Golang Remote, Remote Go Developer, Golang Architect, Go API Developer, Backend Go Developer, Golang Backend Engineer, Go Distributed Systems, Golang Performance Expert, Senior Go Engineer, Go REST API, gRPC Developer, Go Concurrency Expert, Golang Systems Architect, Backend Microservices Go, Go Cloud Developer, Golang DevOps Engineer, Senior Backend Developer Go, Go Database Developer, Golang Event Driven, Backend Systems Go, Go Performance Optimization, Golang Scalability Expert, Go Tech Lead, Backend Architecture Golang, Remote Golang Engineer" />
     <meta name="author" content="Ye Myo Aung" />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="language" content="English" />
@@ -28,21 +28,30 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://yemyoaung.dev/" />
-    <meta property="og:title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect" />
-    <meta property="og:description" content="Ye Myo Aung - Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Currently working at Klink.Cloud Singapore. Expert in Golang, Flutter, and AI-powered solutions." />
+    <meta property="og:title" content="Senior Golang Engineer & Remote Go Developer | Backend Systems Architect" />
+    <meta property="og:description" content="Senior Golang Engineer & Remote Go Developer with 6+ years building high-performance Go microservices and distributed systems. Expert Golang Architect currently building scalable backend applications remotely." />
     <meta property="og:image" content="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-og.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Ye Myo Aung Portfolio" />
+    <meta property="og:site_name" content="Senior Golang Engineer Portfolio" />
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://yemyoaung.dev/" />
-    <meta property="twitter:title" content="Ye Myo Aung - Senior Backend & Mobile Developer | Software Architect" />
-    <meta property="twitter:description" content="Ye Myo Aung - Experienced Senior Developer with 6+ years in backend microservices, Flutter mobile development, and software architecture. Currently working at Klink.Cloud Singapore." />
+    <meta property="twitter:title" content="Senior Golang Engineer & Remote Go Developer | Backend Systems Architect" />
+    <meta property="twitter:description" content="Senior Golang Engineer & Remote Go Developer with 6+ years building high-performance Go microservices and distributed systems. Expert Golang Architect in concurrency and scalable backend systems." />
     <meta property="twitter:image" content="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-og.jpg" />
     <meta name="twitter:creator" content="@yemyoaung" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="geo.region" content="TH-10" />
+    <meta name="geo.placename" content="Thailand" />
+    <meta name="geo.position" content="13.7563;100.5018" />
+    
+
     
     <!-- Additional SEO Meta Tags -->
     <meta name="theme-color" content="#0a9396" />
@@ -66,11 +75,9 @@
     <link rel="dns-prefetch" href="https://www.gstatic.com" />
     <link rel="dns-prefetch" href="https://firebaselogging-pa.googleapis.com" />
     
-    <!-- Additional performance hints -->
-    <link rel="preload" as="script" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/js/script.js" />
-    <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-320.jpg" media="(max-width: 479px)" />
-    <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-480.jpg" media="(min-width: 480px) and (max-width: 639px)" />
-    <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-640.jpg" media="(min-width: 640px)" />
+    <!-- Conditional image preloading - only preload the most likely used image -->
+    <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-480.jpg" />
+    <link rel="preload" as="image" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-640.jpg" />
     
     <!-- Critical CSS inline for above-the-fold content -->
     <style>
@@ -139,14 +146,14 @@
       }
     </style>
     
-    <!-- Non-blocking font loading -->
+    <!-- Non-blocking font loading with preload and onload swap -->
     <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@600&display=swap"></noscript>
     
     <!-- Non-blocking CSS loading -->
     <link rel="preload" as="style" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/css/styles.css" onload="this.onload=null;this.rel='stylesheet';document.body.classList.remove('loading-fonts')" onerror="this.onerror=null;var link=document.createElement('link');link.rel='stylesheet';link.href='assets/css/styles.css';link.onload=function(){document.body.classList.remove('loading-fonts')};document.head.appendChild(link);">
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/css/styles.css"></noscript>
-    
+        
     <!-- Firebase Analytics with Content Blocker Protection -->
     <script type="module">
       try {
@@ -210,8 +217,8 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Ye Myo Aung",
-      "jobTitle": "Senior Backend & Mobile Developer",
-      "description": "Experienced Senior Developer with over 6 years in backend microservices, Flutter mobile development, and software architecture.",
+      "jobTitle": "Senior Golang Engineer & Remote Go Developer",
+      "description": "Senior Golang Engineer & Remote Go Developer with over 6 years specializing in high-performance Go microservices, REST APIs, and distributed backend systems. Expert Golang Architect in remote backend development.",
       "url": "https://yemyoaung.dev",
       "image": "https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile.jpg",
       "email": "yemyoaung.dev@gmail.com",
@@ -231,12 +238,24 @@
         "https://www.mfmlabs.com/"
       ],
       "knowsAbout": [
-        "Golang",
-        "Flutter",
-        "Dart",
-        "Microservices",
+        "Golang Backend Development",
+        "Go Microservices",
+        "Go REST APIs",
+        "Go Concurrency",
+        "Go Performance Optimization",
+        "gRPC Backend Development",
+        "Golang API Design",
+        "Go Testing",
+        "Go Benchmarking",
+        "Goroutines",
+        "Go Channels",
+        "Go Web Development",
+        "Go Backend Architecture",
+        "Go Distributed Systems",
+        "Backend Microservices",
+        "API Development",
+        "Microservices Architecture",
         "Event-driven Architecture",
-        "Mobile Development",
         "Backend Development",
         "Software Architecture",
         "AI Solutions",
@@ -293,8 +312,8 @@
     {
       "@context": "https://schema.org",
       "@type": "ProfessionalService",
-      "name": "Ye Myo Aung - Software Development Services",
-      "description": "Senior Backend & Mobile Developer offering software architecture, microservices development, and Flutter mobile application development services",
+      "name": "Senior Golang Backend Developer Services",
+      "description": "Senior Golang Backend Developer offering Go microservices development, REST API architecture, distributed systems, and high-performance backend solutions",
       "provider": {
         "@type": "Person",
         "name": "Ye Myo Aung"
@@ -306,11 +325,16 @@
         "Asia-Pacific"
       ],
       "serviceType": [
-        "Software Development",
-        "Mobile App Development",
-        "Backend Development",
-        "Software Architecture",
-        "Technical Consulting"
+        "Golang Backend Development",
+        "Go Microservices Development", 
+        "Go REST API Development",
+        "Go Performance Optimization",
+        "Go System Architecture",
+        "Backend Architecture",
+        "API Design & Development",
+        "Microservices Architecture",
+        "Distributed Systems",
+        "Backend Development"
       ]
     }
     </script>
@@ -321,18 +345,18 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Ye Myo Aung",
-      "alternateName": ["Ye Myo Aung Developer", "Ye Myo Aung Software Engineer"],
+      "alternateName": ["Senior Golang Backend Developer", "Go Backend Expert", "Golang Microservices Developer"],
       "givenName": "Ye Myo Aung",
-      "additionalName": "Senior Developer",
-      "jobTitle": ["Senior Backend Developer", "Flutter Expert", "Software Architect"],
+      "additionalName": "Senior Golang Backend Developer",
+      "jobTitle": ["Senior Golang Engineer", "Remote Go Developer", "Golang Backend Architect", "Senior Backend Engineer"],
       "hasOccupation": {
         "@type": "Occupation",
-        "name": "Senior Software Developer",
+        "name": "Senior Golang Backend Developer",
         "occupationLocation": {
           "@type": "City",
           "name": "Singapore"
         },
-        "skills": "Golang, Flutter, Microservices, Event-driven Architecture"
+        "skills": "Golang Backend Development, Go Microservices, Go REST APIs, Go Concurrency, Go Performance Optimization, gRPC, Backend Architecture, Distributed Systems"
       },
       "affiliation": [
         {
@@ -441,16 +465,15 @@
                   https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile-640.jpg 640w,
                   https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/images/profile.jpg 960w"
           sizes="(max-width: 480px) 100px,
-                 (max-width: 768px) 140px,
-                 (max-width: 1024px) 160px,
-                 180px"
-          alt="Photo of Ye Myo Aung, Senior Backend & Mobile Developer"
-          loading="lazy"
+                (max-width: 768px) 140px,
+                (max-width: 1024px) 160px,
+                180px"
+          alt="Photo of Senior Golang Backend Developer & Go Microservices Expert"
           itemprop="image"
           onerror="this.onerror=null;this.src='./assets/images/profile-480.jpg';this.srcset='./assets/images/profile-320.jpg 320w, ./assets/images/profile-480.jpg 480w, ./assets/images/profile-640.jpg 640w, ./assets/images/profile.jpg 960w';"
         />
         <h1 itemprop="name">Ye Myo Aung</h1>
-        <p itemprop="jobTitle">Senior Backend & Mobile Developer | Software Architect</p>
+        <p itemprop="jobTitle">Senior Golang Engineer | Remote Go Developer & Backend Architect</p>
         <a
           href="https://cdn.jsdelivr.net/gh/yemyoaung/yemyoaung@main/assets/downloads/YE MYO AUNG SENIOR DEVELOPER.pdf"
           download
@@ -462,51 +485,68 @@
       </header>
 
       <section id="about" aria-label="About me">
-        <h2>About Ye Myo Aung</h2>
+        <h2>Senior Golang Engineer | Remote Go Developer & Backend Architect</h2>
         <p>
-          Hi, I'm <strong>Ye Myo Aung</strong>, an experienced Senior Developer with over 6 years in backend
-          microservices, mobile app development, and software design.
-          Passionate about scalable, high-performance systems and delivering
-          robust technical solutions that drive business growth.
+          Hi, I'm a dedicated <strong>Senior Golang Engineer</strong> and <strong>Remote Go Developer</strong> with over 6 years of expertise in 
+          building high-performance <strong>Go microservices</strong>, REST APIs, and distributed backend systems.
+          Passionate about <strong>Golang performance optimization</strong>, concurrency patterns, and delivering
+          scalable <strong>backend architecture</strong> solutions that drive business growth remotely.
         </p>
         <p>
-          As <strong>Ye Myo Aung</strong>, I specialize in building enterprise-grade software that handles millions of users, 
-          with expertise in event-driven systems, performance optimization, and cross-platform development. 
+          As a <strong>Golang Architect</strong> and <strong>Remote Backend Engineer</strong>, I specialize in building enterprise-grade <strong>Go APIs</strong> that handle millions of requests, 
+          with deep expertise in <strong>Go concurrency</strong>, goroutines, channels, and <strong>microservices architecture</strong>. 
           My experience spans from early-stage startups to established companies across Singapore and Myanmar, 
-          where I've led technical teams and delivered mission-critical systems.
+          where I've led backend teams and delivered mission-critical <strong>Go backend systems</strong> with 99.9% uptime.
         </p>
         <p>
-          Currently, <strong>Ye Myo Aung</strong> is focused on AI-powered solutions, microservices design, and technical mentorship. 
-          I believe in writing code that not only solves problems but is also 
-          maintainable, testable, and scalable for future growth.
+          Currently focused on advanced <strong>Golang remote development</strong>, including AI-powered solutions in Go, 
+          cloud-native microservices design, and mentoring developers in <strong>Go backend best practices</strong>. 
+          I believe in writing <strong>Go backend code</strong> that not only solves complex problems but is also 
+          maintainable, testable, performant, and follows Go idioms for future scalability.
         </p>
       </section>
 
       <section id="skills" aria-label="Technical skills">
-        <h2>Ye Myo Aung's Technical Skills & Project Management Expertise</h2>
-        <p><strong>Ye Myo Aung</strong> brings extensive technical expertise across multiple technology stacks:</p>
+        <h2>Senior Golang Engineer | Remote Go Developer Technical Expertise</h2>
+        <p>Comprehensive <strong>Golang Engineer</strong> and <strong>Remote Go Developer</strong> expertise with <strong>Golang Architect</strong> experience:</p>
         <ul class="skills-list">
           <li>
-            Languages: Golang, Dart, JavaScript, TypeScript, PHP, Python, Java,
-            Objective-C
-          </li>
-          <li>Backend: Microservices, gRPC, REST APIs, Redis, Kafka</li>
-          <li>
-            Frontend/Mobile: Cross-platform development (iOS, Android, Web), Hybrid native integration
-          </li>
-          <li>Tools & Platforms: Docker, CI/CD pipelines, GitHub Actions</li>
-          <li>
-            Cloud & DevOps: Containerized deployments, scalable system design
+            <strong>Core Golang Backend:</strong> Advanced Go Programming, <strong>Go REST APIs</strong>, <strong>Go Microservices Architecture</strong>, 
+            <strong>Go Performance Optimization</strong>, Go Testing & Benchmarking, Go Modules & Dependency Management
           </li>
           <li>
-            Specialties: AI-powered systems, OCR, NLP, Event-driven design
+            <strong>Go Concurrency & Performance:</strong> <strong>Goroutines & Channels</strong>, Go Concurrency Patterns, 
+            Go Memory Management, Go Profiling & Debugging, <strong>High-Performance Go Applications</strong>
+          </li>
+          <li>
+            <strong>Go Backend Frameworks & APIs:</strong> <strong>gRPC with Go</strong>, Go Web Frameworks (Gin, Echo, Fiber), 
+            Go Database Integration (GORM, SQL), <strong>Go Message Queues</strong> (Kafka, RabbitMQ)
+          </li>
+          <li>
+            <strong>Go Distributed Systems:</strong> <strong>Go Microservices</strong>, Event-driven Architecture in Go, 
+            Go Service Mesh, Go Circuit Breakers, <strong>Go Load Balancing</strong>
+          </li>
+          <li>
+            <strong>Go Cloud & Remote DevOps:</strong> <strong>Go Containerization</strong> (Docker, Kubernetes), CI/CD for Go applications, 
+            Go monitoring & observability, <strong>Go deployment strategies</strong>, <strong>Remote Golang Engineer</strong> collaboration
+          </li>
+          <li>
+            <strong>Specialties:</strong> High-performance Go applications, Go-based AI solutions, 
+            Go OCR/NLP services, Go distributed systems design, <strong>Golang Architect</strong> leadership
+          </li>
+          <li>
+            <strong>Backend Technologies:</strong> Redis, PostgreSQL, MongoDB, Elasticsearch, Docker, Kubernetes, 
+            AWS/GCP, Prometheus, Grafana
+          </li>
+          <li>
+            <strong>Additional Languages:</strong> JavaScript/TypeScript (Node.js), Python, Dart (Flutter)
           </li>
         </ul>
       </section>
 
       <section id="projects" aria-label="Featured projects">
-        <h2>Featured Projects by Ye Myo Aung</h2>
-        <p>Explore the portfolio of <strong>Ye Myo Aung</strong>, showcasing enterprise-grade software and cutting-edge solutions:</p>
+        <h2>Featured Golang Backend Projects & Go Microservices</h2>
+        <p>Explore enterprise-grade <strong>Golang backend systems</strong> and <strong>Go microservices</strong> solutions:</p>
         <div class="project-grid">
           <div class="project-card">
             <h4>Klink.Cloud Contact Center Platform</h4>
@@ -527,7 +567,7 @@
               <span class="tech-tag">Event Driven Architecture</span>
             </div>
             <div class="project-links">
-              <a href="https://klink.cloud" target="_blank">Visit Klink.Cloud</a>
+              <a href="https://klink.cloud" target="_blank" rel="noopener noreferrer">Visit Klink.Cloud</a>
             </div>
           </div>
 
@@ -549,7 +589,7 @@
               <span class="tech-tag">Agricultural Platform</span>
             </div>
             <div class="project-links">
-              <a href="https://www.mfmlabs.com/" target="_blank">Visit MFM Labs</a>
+              <a href="https://www.mfmlabs.com/" target="_blank" rel="noopener noreferrer">Visit MFM Labs</a>
             </div>
           </div>
 
@@ -571,7 +611,7 @@
               <span class="tech-tag">Agile</span>
             </div>
             <div class="project-links">
-              <a href="https://www.beyondlimitsmm.com/" target="_blank">Visit Beyond Limits</a>
+              <a href="https://www.beyondlimitsmm.com/" target="_blank" rel="noopener noreferrer">Visit Beyond Limits</a>
             </div>
           </div>
 
@@ -592,7 +632,7 @@
               <span class="tech-tag">Team Leadership</span>
             </div>
             <div class="project-links">
-              <a href="https://yec.company/" target="_blank">Visit YEC</a>
+              <a href="https://yec.company/" target="_blank" rel="noopener noreferrer">Visit YEC</a>
             </div>
           </div>
 
@@ -613,7 +653,7 @@
               <span class="tech-tag">Mobile Application</span>
             </div>
             <div class="project-links">
-              <a href="https://thazincherry.org/" target="_blank">Visit Thazin Cherry</a>
+              <a href="https://thazincherry.org/" target="_blank" rel="noopener noreferrer">Visit Thazin Cherry</a>
             </div>
           </div>
 
@@ -637,15 +677,15 @@
               <span class="tech-tag">Role-based Access</span>
             </div>
             <div class="project-links">
-              <a href="https://thartharmyanmar.com" target="_blank">Visit Thar Thar</a>
+              <a href="https://thartharmyanmar.com" target="_blank" rel="noopener noreferrer">Visit Thar Thar</a>
             </div>
           </div>
         </div>
       </section>
 
       <section id="opensource" aria-label="Open source contributions">
-        <h2>Ye Myo Aung's Open Source Contributions</h2>
-        <p><strong>Ye Myo Aung</strong> actively contributes to the open-source community with innovative libraries and tools:</p>
+        <h2>Golang Open Source Contributions & Go Libraries</h2>
+        <p>Active contributions to the <strong>Golang community</strong> with innovative <strong>Go libraries</strong> and backend tools:</p>
         <div class="project-grid">
           <div class="project-card">
             <h4>Starlight EPUB Viewer</h4>
@@ -664,7 +704,7 @@
               <span class="tech-tag">Open Source</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/YeMyoAung/starlight_epub_viewer" target="_blank">View on GitHub</a>
+              <a href="https://github.com/YeMyoAung/starlight_epub_viewer" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
           </div>
 
@@ -685,7 +725,7 @@
               <span class="tech-tag">Open Source</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/YeMyoAung/flutter_google_recaptcha_v3" target="_blank">View on GitHub</a>
+              <a href="https://github.com/YeMyoAung/flutter_google_recaptcha_v3" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
           </div>
 
@@ -706,7 +746,7 @@
               <span class="tech-tag">Open Source</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/YeMyoAung/goenv" target="_blank">View on GitHub</a>
+              <a href="https://github.com/YeMyoAung/goenv" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
           </div>
 
@@ -728,7 +768,7 @@
               <span class="tech-tag">Open Source</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/YeMyoAung/gorm-multitenancy" target="_blank">View on GitHub</a>
+              <a href="https://github.com/YeMyoAung/gorm-multitenancy" target="_blank" rel="noopener noreferrer">View on GitHub</a>
             </div>
           </div>
 
@@ -781,8 +821,8 @@
       </section>
 
       <section id="experience" aria-label="Work experience">
-        <h2>Ye Myo Aung's Project Management & Software Development Experience</h2>
-        <p>Discover the career journey of <strong>Ye Myo Aung</strong> across leading technology companies:</p>
+        <h2>Senior Golang Backend Developer Experience</h2>
+        <p>Professional journey as a <strong>Golang Backend Developer</strong> across leading technology companies:</p>
         <h3>
           <a
             href="https://klink.cloud"
@@ -870,8 +910,8 @@
       </section>
 
       <section id="contact" aria-label="Contact information" itemscope itemtype="https://schema.org/ContactPoint">
-        <h2>Contact Ye Myo Aung</h2>
-        <p>Get in touch with <strong>Ye Myo Aung</strong> for collaboration opportunities:</p>
+        <h2>Contact Senior Golang Backend Developer</h2>
+        <p>Get in touch for <strong>Golang backend development</strong> opportunities and collaborations:</p>
         <p>
           Email:
           <a href="mailto:yemyoaung.dev@gmail.com" itemprop="email">yemyoaung.dev@gmail.com</a>
@@ -905,7 +945,7 @@
           >
         </p>
         <p class="contact-availability">
-          Available for senior engineering roles and technical consulting opportunities.
+          Available for <strong>remote Golang Engineer</strong> roles and <strong>Golang Architect</strong> consulting opportunities.
         </p>
     </main>
     
